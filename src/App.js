@@ -16,7 +16,7 @@ function App() {
           <Route path="/background">
             <Background />
           </Route>
-          <Route path="/interests-and-hobbies">
+          <Route path="/hobbies">
             <Hobbies />
           </Route>
           <Route path="/contact">
