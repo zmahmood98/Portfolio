@@ -27,7 +27,7 @@
     color: white;
     text-shadow: 1px 1px 2px #1a161b;
     letter-spacing: 1px;
-    font-weight: 1000;
+    font-weight: 600;
     margin-bottom: -80px;
     word-spacing: 10px;
     letter-spacing: 4px;
@@ -39,4 +39,9 @@
     font-family: pacifico, sans-serif;
     font-weight: 300;
     font-style: normal;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 1px 1px 2.5px #000000;
+    position: relative;
+    top: 3.5px;
 }
