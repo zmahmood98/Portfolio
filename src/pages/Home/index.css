@@ -9,9 +9,9 @@
     width: 100vw;
 }
 
-.about-div {
+.home-div {
     width: 700px;
-    height: 200px;
+    height: 450px;
     position: absolute;
     top:0;
     bottom: 0;
@@ -28,10 +28,15 @@
     text-shadow: 1px 1px 2px #1a161b;
     letter-spacing: 1px;
     font-weight: 1000;
+    margin-bottom: -80px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
 }
 
 .oo {
-    font-size: 95px;
+    font-size: 110px;
     display: inline;
-    font-weight: 1;
+    font-family: pacifico, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
