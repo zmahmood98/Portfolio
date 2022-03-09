@@ -5,7 +5,8 @@ import construction from "../../images/construction.png"
 function Hobbies () {
     return (
       <div className='hobbies-div'>
-       <img src={construction} alt="construction" className="construction-image" />     
+       <img src={construction} alt="construction" className="construction-image" />  
+       <br></br>      
       </div>
     );
   }
