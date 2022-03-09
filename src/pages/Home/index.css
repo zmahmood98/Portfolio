@@ -1,0 +1,37 @@
+/* * {
+    margin: 0;
+} */
+
+.cloud-image {
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-div {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.home-h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px #1a161b;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+
+.oo {
+    font-size: 95px;
+    display: inline;
+    font-weight: 1;
+}

@@ -1,12 +1,17 @@
 import React from 'react';
 import './index.css';
+import clouds from "../../images/clouds.jpg"
 
 function Home () {
     return (
-      <div className='about-div'>
-       HOME PAGE        
-      </div>
+        <>
+            <img src={clouds} alt="clouds" className="cloud-image" />
+                <div className='about-div'>
+                    <h1 className="home-h1">ZAHRA MAHM<div className='oo'>oo</div>D</h1>
+                    <h3>Welcome to my portfolio!</h3>   
+                </div>
+        </>
     );
-  }
+}
   
   export default Home;
