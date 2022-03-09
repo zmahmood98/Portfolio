@@ -1,14 +1,14 @@
 nav {
-    position: relative;
+    position: fixed;
     width: 100vw;
     background-color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: space-evenly;
     color: #222222;
     height: 70px;
     padding: 20px 36px;
-    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 7.5px #c6b0cb;
 }
 
 a {
@@ -18,12 +18,12 @@ a {
 }
 
 a:hover {
-    color: #ffd728;
+    color: #90D1F1;
     font-weight: bolder;
 }
 
 a.active {
-    color: #0b6dff;
+    color: #c6b0cb;
     font-weight: bolder;
 }
 

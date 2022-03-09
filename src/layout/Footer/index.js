@@ -10,7 +10,7 @@ const Footer = () => {
             &copy; ZAHRA MAHMOOD
 
             <div className="speech">
-                <Speech text="thanks for checking out my profile" />
+                <Speech text="thanks for checking out my portfolio" />
             </div>
 
         </span>
