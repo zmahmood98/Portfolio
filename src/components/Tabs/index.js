@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './index.css';
 
 const Tabs = () => {
-
-    window.onload = function() {
-        var radio = document. getElementById("tab1");
-        radio.checked = true;
-    }
     
+    useEffect( () => {
+        var radio = document.getElementById("tab1");
+        radio.checked = true;
+        }, []
+    )
+
     return (
         <>
             <section className="tab-section">
@@ -15,17 +16,17 @@ const Tabs = () => {
                 <div className="col-rt-12">
                     
                     <div className="conveytabs">
-                    <input id="tab1" type="radio" name="tabs" onLoad="checked"/>
-                    <label for="tab1">Education</label>
+                    <input id="tab1" type="radio" name="tabs" />
+                    <label htmlFor="tab1">Education</label>
                         
                     <input id="tab2" type="radio" name="tabs" />
-                    <label for="tab2">Experience</label>
+                    <label htmlFor="tab2">Experience</label>
                         
                     <input id="tab3" type="radio" name="tabs" />
-                    <label for="tab3">Achievements</label>
+                    <label htmlFor="tab3">Achievements</label>
     
                     <input id="tab4" type="radio" name="tabs" />
-                    <label for="tab4">Aspirations</label>
+                    <label htmlFor="tab4">Aspirations</label>
                         
                     <section id="content1">
                         <h2>My Education</h2>
