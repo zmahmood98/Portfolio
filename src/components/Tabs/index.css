@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+/* @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css"); */
 
 
 .tab-section {
@@ -69,7 +69,11 @@
   margin-right: 10px;
 }
 
-.conveytabs label[for*='1']:before {
+.emoji {
+  font-size: 25px;
+}
+
+/* .conveytabs label[for*='1']:before {
   content: '\f19d';
   color: black;
 }
@@ -87,7 +91,7 @@
 .conveytabs label[for*='4']:before {
   content: '\f0d0';
   color: black;
-}
+} */
 
 
 .conveytabs label:hover {
