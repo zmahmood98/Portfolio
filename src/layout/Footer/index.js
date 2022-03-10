@@ -1,5 +1,4 @@
 import React from 'react';
-import Speech from 'react-speech';
 import './index.css';
 
 const Footer = () => {
@@ -9,9 +8,7 @@ const Footer = () => {
 
             &copy; ZAHRA MAHMOOD
 
-            <div className="speech">
-                <Speech text="thanks for checking out my portfolio" />
-            </div>
+
 
         </span>
     </>

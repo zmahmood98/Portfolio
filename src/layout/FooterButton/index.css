@@ -1,0 +1,12 @@
+.speech {
+    
+    margin-top: -40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+button {
+    height: 13.5px;
+    width: 4.25px;
+}
