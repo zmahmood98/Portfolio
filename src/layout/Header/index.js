@@ -8,8 +8,8 @@ const Header = () => {
         <div className={"nav"}>
             <nav>
                 <NavLink exact to="/" activeClassName="active">Home</NavLink>
-                <NavLink to="/background" activeClassName="active">My Background</NavLink>
-                <NavLink to="/hobbies" activeClassName="active">Hobbies and Interests</NavLink>
+                <NavLink to="/background" activeClassName="active">Background</NavLink>
+                <NavLink to="/projects" activeClassName="active">Projects</NavLink>
                 <NavLink to="/contact" activeClassName="active">Contact</NavLink>
             </nav>
         </div>

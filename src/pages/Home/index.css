@@ -8,7 +8,7 @@
 
 .home-div {
     width: 700px;
-    height: 350px;
+    height: 190px;
     position: absolute;
     top:0;
     bottom: 0;
@@ -19,26 +19,23 @@
 }
 
 .home-h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 60px;
     color: white;
-    text-shadow: 1px 1px 2px #1a161b;
-    letter-spacing: 1px;
-    font-weight: 600;
+    text-shadow: 2px 2px 5px #1a161b;
+    font-weight: 700;
     margin-bottom: -80px;
-    word-spacing: 10px;
-    letter-spacing: 4px;
+    -webkit-text-stroke: 4px white;
+    letter-spacing: 2.5px;
 }
 
-.oo {
-    font-size: 110px;
-    display: inline;
-    font-family: pacifico, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: white;
-    text-shadow: 1px 1px 2.5px #000000;
-    position: relative;
-    top: 3.5px;
+.home-p {
+    margin-top: 100px;
+    font-size: larger;
+}
+
+.transparent {
+    background-color: rgba(240, 248, 255, 0.37);
+    padding: 35px;
+    font-size: 17px;
 }
