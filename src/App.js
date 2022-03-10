@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 import './App.css';
 import { Home, Background, Hobbies, Contact } from './pages';
-import { Header, Footer } from './layout';
+import { Header, Footer, FooterButton } from './layout';
 
 function App() {
     return (
@@ -23,6 +23,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <FooterButton />
         <Footer />
       </>
     );
