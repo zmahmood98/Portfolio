@@ -5,11 +5,7 @@ const Footer = () => {
     return (
     <>
         <span role = "footer" id="footer">
-
             &copy; ZAHRA MAHMOOD
-
-
-
         </span>
     </>
     )
