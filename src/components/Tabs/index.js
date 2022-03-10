@@ -2,6 +2,11 @@ import React from 'react';
 import './index.css';
 
 const Tabs = () => {
+
+    window.onload = function() {
+        var radio = document. getElementById("tab1");
+        radio.checked = true;
+    }
     
     return (
         <>
@@ -10,7 +15,7 @@ const Tabs = () => {
                 <div className="col-rt-12">
                     
                     <div className="conveytabs">
-                    <input id="tab1" type="radio" name="tabs"/>
+                    <input id="tab1" type="radio" name="tabs" onLoad="checked"/>
                     <label for="tab1">Education</label>
                         
                     <input id="tab2" type="radio" name="tabs" />
