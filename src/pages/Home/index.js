@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import clouds from "../../images/clouds.jpg"
-import Speech from 'react-speech'
 
 function Home () {
     return (
