@@ -18,12 +18,12 @@ a {
 }
 
 a:hover {
-    color: #90D1F1;
+    color: #c6b0cb;
     font-weight: bolder;
 }
 
 a.active {
-    color: #c6b0cb;
+    color: #90D1F1;
     font-weight: bolder;
 }
 
