@@ -14,11 +14,12 @@ const ProjectBox = () => {
                 <div className="container">
                   <img src={ppgGif} className="image" />
                   <div className="overlay">
-                    <div className="text">The Python-Puff Girls - Anonymous Journalling Site
+                    <div className="text">Anonymous Journaling Site
                     </div>
                   </div>
                 </div>
               </a>
+              <a href="https://pythonpuff-girls.netlify.app/">The Python-Puff Girls</a>
             </div>
             <div className="column">
               <a href="https://github.com/zmahmood98/habit-tracker-server">
@@ -30,17 +31,19 @@ const ProjectBox = () => {
                   </div>
                 </div>
               </a>
+              <a href="https://reinhabit.netlify.app/">ReinHabit</a>
             </div>
             <div className="column">
               <a href="https://github.com/zmahmood98/react-music-app">
                 <div className="container">
                   <img src={nctGif} className="image" />
                   <div className="overlay">
-                    <div className="text">Music App - Built With React
+                    <div className="text">Built With React
                     </div>
                   </div>
                 </div>
               </a>
+              <a href="https://nctzens-unite.netlify.app/">Music App</a>
             </div>
             <div className="column">
                 <a href="#">
@@ -51,6 +54,7 @@ const ProjectBox = () => {
                     </div>
                   </div>
                 </a>
+                <a href="#">???</a>
             </div>
           </div>
     </div>
