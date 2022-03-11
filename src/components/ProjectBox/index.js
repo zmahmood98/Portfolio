@@ -71,7 +71,7 @@ const ProjectBox = () => {
 
             </div>
             <div className="column">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://maharani-games.netlify.app/">
                   <div className="container">
                     <img src={maharani} className="image" />
                     <div className="overlay">
