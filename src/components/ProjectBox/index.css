@@ -53,6 +53,16 @@
     text-align: center;
 }
 
+.github-link {
+    padding-top: 10px;
+    
+}
+
+/* .github-icon {
+    margin-top: 10px;
+    display: inline-block;
+} */
+
 /* Tablet Styles */
 @media only screen and (min-width: 480px) {
     .column {

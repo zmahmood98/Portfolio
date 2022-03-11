@@ -19,7 +19,14 @@ const ProjectBox = () => {
                   </div>
                 </div>
               </a>
-              <a href="https://github.com/zmahmood98/the-pythonpuff-girls">The Python-Puff Girls</a>
+              <div className="github-link">
+                <a href="https://github.com/zmahmood98/the-pythonpuff-girls">
+                  The Python-Puff Girls
+                    <div className="github-icon">
+                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
+                    </div>
+                </a>
+              </div>
             </div>
             <div className="column">
               <a href="https://reinhabit.netlify.app/">
@@ -31,30 +38,51 @@ const ProjectBox = () => {
                   </div>
                 </div>
               </a>
-              <a href="https://github.com/zmahmood98/habit-tracker-server">ReinHabit</a>
+              <div className="github-link">
+                <a href="https://github.com/zmahmood98/habit-tracker-server">
+                  ReinHabit
+                    <div className="github-icon">
+                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
+                    </div>
+                </a>
+              </div>
             </div>
             <div className="column">
               <a href="https://nctzens-unite.netlify.app/">
                 <div className="container">
                   <img src={nctGif} className="image" />
                   <div className="overlay">
-                    <div className="text">Built With React
+                    <div className="text">First React App
                     </div>
                   </div>
                 </div>
               </a>
-              <a href="https://github.com/zmahmood98/react-music-app">Music App</a>
+              <div className="github-link">
+                <a href="https://github.com/zmahmood98/react-music-app">
+                  NCT Music
+                    <div className="github-icon">
+                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
+                    </div>
+                </a>
+              </div>
             </div>
             <div className="column">
                 <a href="#">
                   <div className="container">
                     <img src="#" className="image" />
                     <div className="overlay">
-                      <div className="text">????</div>
+                      <div className="text">Gaming Site</div>
                     </div>
                   </div>
                 </a>
-                <a href="#">???</a>
+                <div className="github-link">
+                <a href="#">
+                  Maharani Games
+                    <div className="github-icon">
+                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
+                    </div>
+                </a>
+              </div>
             </div>
           </div>
     </div>
