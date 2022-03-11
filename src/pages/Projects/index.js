@@ -7,7 +7,7 @@ function Projects () {
     return (
       <div className='projects-div'>
         <h2 className='projects-h2'>Projects I have been part of</h2>
-        <p className='projects-p'>Click on a project gif to be taken to it's GitHub page, or the title to see the deployed site!</p>
+        <p className='projects-p'>Click on a project gif to be taken to the deployed site!</p>
         <br></br>
         <ProjectBox />      
       </div>

@@ -10,7 +10,7 @@ const ProjectBox = () => {
     <div>
         <div className="row">
         <div className="column">
-              <a href="https://github.com/zmahmood98/the-pythonpuff-girls">
+              <a href="https://pythonpuff-girls.netlify.app/">
                 <div className="container">
                   <img src={ppgGif} className="image" />
                   <div className="overlay">
@@ -19,22 +19,22 @@ const ProjectBox = () => {
                   </div>
                 </div>
               </a>
-              <a href="https://pythonpuff-girls.netlify.app/">The Python-Puff Girls</a>
+              <a href="https://github.com/zmahmood98/the-pythonpuff-girls">The Python-Puff Girls</a>
             </div>
             <div className="column">
-              <a href="https://github.com/zmahmood98/habit-tracker-server">
+              <a href="https://reinhabit.netlify.app/">
                 <div className="container">
                   <img src={reinhabitGif} className="image" />
                   <div className="overlay">
-                    <div className="text">ReinHabit - Habit Tracking App
+                    <div className="text">Habit Tracking App
                     </div>
                   </div>
                 </div>
               </a>
-              <a href="https://reinhabit.netlify.app/">ReinHabit</a>
+              <a href="https://github.com/zmahmood98/habit-tracker-server">ReinHabit</a>
             </div>
             <div className="column">
-              <a href="https://github.com/zmahmood98/react-music-app">
+              <a href="https://nctzens-unite.netlify.app/">
                 <div className="container">
                   <img src={nctGif} className="image" />
                   <div className="overlay">
@@ -43,12 +43,12 @@ const ProjectBox = () => {
                   </div>
                 </div>
               </a>
-              <a href="https://nctzens-unite.netlify.app/">Music App</a>
+              <a href="https://github.com/zmahmood98/react-music-app">Music App</a>
             </div>
             <div className="column">
                 <a href="#">
                   <div className="container">
-                    <img src="/images/komi.jpg" className="image" />
+                    <img src="#" className="image" />
                     <div className="overlay">
                       <div className="text">????</div>
                     </div>
