@@ -21,13 +21,13 @@ const Tabs = () => {
                     <label htmlFor="tab1"><span className='emoji'>&#x1f393;</span> Education</label>
                         
                     <input id="tab2" type="radio" name="tabs" />
-                    <label htmlFor="tab2"><span className='emoji'>&#x1f4bb;</span> Experience</label>
+                    <label htmlFor="tab2"><span className='emoji'>&#x1f433;</span> Technologies</label>
                         
                     <input id="tab3" type="radio" name="tabs" />
-                    <label htmlFor="tab3"><span className='emoji'>&#x1f947;</span> Achievements</label>
+                    <label htmlFor="tab3"><span className='emoji'>&#x1f4bb;</span> Experience</label>
     
                     <input id="tab4" type="radio" name="tabs" />
-                    <label htmlFor="tab4"><span className='emoji'>&#x1f320;</span> Aspirations</label>
+                    <label htmlFor="tab4"><span className='emoji'>&#x1f320;</span> Achievements</label>
                         
                     <section id="content1">
                         <h2>My Education</h2>
