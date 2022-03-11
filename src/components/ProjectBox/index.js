@@ -3,10 +3,12 @@ import './index.css';
 import reinhabitGif from '../../images/REINHABITgif.gif'
 import ppgGif from '../../images/PPG.gif'
 import nctGif from '../../images/NCTgif.gif'
+import maharani from '../../images/white-logo-maharani.png'
 
 const ProjectBox = () => {
 
     return (
+    <>
     <div>
         <div className="row">
         <div className="column">
@@ -71,23 +73,25 @@ const ProjectBox = () => {
             <div className="column">
                 <a target="_blank" href="#">
                   <div className="container">
-                    <img src="#" className="image" />
+                    <img src={maharani} className="image" />
                     <div className="overlay">
                       <div className="text">Gaming Site</div>
                     </div>
                   </div>
                 </a>
               <div className="github-link">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://github.com/zmahmood98/maharani-games">
                 Maharani Games
                 </a>
-                <a className="github-icon" target="_blank" href="#">
+                <a className="github-icon" target="_blank" href="https://github.com/zmahmood98/maharani-games">
                   <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
                 </a>
               </div>
             </div>
           </div>
     </div>
+    <br></br><br></br><br></br>
+    </>
     )
 
 }
