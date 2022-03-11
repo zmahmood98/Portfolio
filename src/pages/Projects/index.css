@@ -4,3 +4,16 @@
     display: block;
     width: 100vw;
 }
+
+.projects-div {
+    margin: 0.75rem;
+    text-align: center;
+}
+
+.projects-h2 {
+    margin-top: 30px;
+}
+
+.projects-p {
+    margin-top: 10px;
+}
