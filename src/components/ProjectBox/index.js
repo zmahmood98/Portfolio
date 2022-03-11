@@ -22,9 +22,9 @@ const ProjectBox = () => {
               <div className="github-link">
                 <a target="_blank" href="https://github.com/zmahmood98/the-pythonpuff-girls">
                   The Python-Puff Girls
-                    <div className="github-icon">
-                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
-                    </div>
+                </a>
+                <a className="github-icon" target="_blank" href="https://github.com/zmahmood98/the-pythonpuff-girls">
+                  <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
                 </a>
               </div>
             </div>
@@ -41,9 +41,9 @@ const ProjectBox = () => {
               <div className="github-link">
                 <a target="_blank" href="https://github.com/zmahmood98/habit-tracker-server">
                   ReinHabit
-                    <div className="github-icon">
-                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
-                    </div>
+                </a>
+                <a className="github-icon" target="_blank" href="https://github.com/zmahmood98/habit-tracker-server">
+                  <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
                 </a>
               </div>
             </div>
@@ -57,14 +57,16 @@ const ProjectBox = () => {
                   </div>
                 </div>
               </a>
+
               <div className="github-link">
                 <a target="_blank" href="https://github.com/zmahmood98/react-music-app">
-                  NCT Music
-                    <div className="github-icon">
-                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
-                    </div>
+                NCT Music
+                </a>
+                <a className="github-icon" target="_blank" href="https://github.com/zmahmood98/react-music-app">
+                  <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
                 </a>
               </div>
+
             </div>
             <div className="column">
                 <a target="_blank" href="#">
@@ -75,12 +77,12 @@ const ProjectBox = () => {
                     </div>
                   </div>
                 </a>
-                <div className="github-link">
+              <div className="github-link">
                 <a target="_blank" href="#">
-                  Maharani Games
-                    <div className="github-icon">
-                      <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/>
-                    </div>
+                Maharani Games
+                </a>
+                <a className="github-icon" target="_blank" href="#">
+                  <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
                 </a>
               </div>
             </div>

@@ -55,13 +55,12 @@
 
 .github-link {
     padding-top: 10px;
-    
 }
 
-/* .github-icon {
-    margin-top: 10px;
-    display: inline-block;
-} */
+.github-icon {
+    margin-left: 170px;
+    margin-right: 170px;
+}
 
 /* Tablet Styles */
 @media only screen and (min-width: 480px) {
