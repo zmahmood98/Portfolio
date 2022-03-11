@@ -3,7 +3,7 @@ import './index.css';
 import reinhabitGif from '../../images/REINHABITgif.gif'
 import ppgGif from '../../images/PPG.gif'
 import nctGif from '../../images/NCTgif.gif'
-import maharani from '../../images/white-logo-maharani.png'
+import maharani from '../../images/maharaniGif.gif'
 
 const ProjectBox = () => {
 
