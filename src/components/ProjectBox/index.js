@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.css';
-import reinhabitGif from '../../images/reinhabitGif.gif'
+import reinhabitGif from '../../images/REINHABITgif.gif'
 import ppgGif from '../../images/PPG.gif'
-import nctGif from '../../images/nctGif.gif'
+import nctGif from '../../images/NCTgif.gif'
 
 const ProjectBox = () => {
 
