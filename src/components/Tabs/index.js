@@ -40,21 +40,21 @@ const Tabs = () => {
                     </section>
                         
                     <section id="content2"> 
-                    <h2>My Experience</h2>
+                    <h2>Skills & Technologies</h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, error quae. Fugit blanditiis quam atque, ut, itaque ipsam facilis distinctio nostrum recusandae ex odit fugiat, tempore exercitationem ea ipsa dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempore. Voluptatem eos inventore nemo atque perferendis reprehenderit laudantium quisquam tempore quaerat nulla repellendus provident, minus soluta perspiciatis accusantium, officiis omnis?
                         </p>
                     </section>
     
                     <section id="content3">
-                    <h2>My Achievements</h2>
+                    <h2>Work Experience</h2>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iure, ullam porro incidunt velit assumenda in expedita totam ipsa accusantium dignissimos quidem similique veniam mollitia? Incidunt, suscipit? Assumenda, amet repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, incidunt voluptates. Cum porro animi optio minima totam debitis temporibus, consequatur incidunt doloremque. Cum quam reprehenderit ad tempora ex nostrum accusantium.
                         </p>
                     </section>
                         
                     <section id="content4">
-                    <h2>My Aspirations</h2>
+                    <h2>My Achievements</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cumque consectetur neque eum maxime voluptas obcaecati aperiam assumenda iure, sed nobis, provident tempore rem sit fugit aliquam accusamus quos ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita voluptatibus nam qui, tenetur eius sint officiis nostrum numquam quod laborum fuga. Perferendis, distinctio? Aliquam a sed at hic! In!
                         </p>
