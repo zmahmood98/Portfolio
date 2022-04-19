@@ -1,9 +1,10 @@
 import React from 'react';
 import './index.css';
-import reinhabitGif from '../../images/REINHABITgif.gif'
-import ppgGif from '../../images/PPG.gif'
-import nctGif from '../../images/NCTgif.gif'
-import maharani from '../../images/maharaniGif.gif'
+import reinhabitGif from '../../images/reinhabitGif.gif'
+import ppgGif from '../../images/ppgGif.gif'
+import nctGif from '../../images/nctGif.gif'
+import maharaniGif from '../../images/maharaniGif.gif'
+import flourishGif from '../../images/flourishGif.gif'
 
 const ProjectBoxes = () => {
 
@@ -11,6 +12,7 @@ const ProjectBoxes = () => {
     <>
     <div>
         <div className="row">
+
         <div className="column">
               <a target="_blank" href="https://pythonpuff-girls.netlify.app/">
                 <div className="container">
@@ -30,6 +32,7 @@ const ProjectBoxes = () => {
                 </a>
               </div>
             </div>
+
             <div className="column">
               <a target="_blank" href="https://reinhabit.netlify.app/">
                 <div className="container">
@@ -49,6 +52,7 @@ const ProjectBoxes = () => {
                 </a>
               </div>
             </div>
+
             <div className="column">
               <a target="_blank" href="https://nctzens-unite.netlify.app/">
                 <div className="container">
@@ -59,7 +63,6 @@ const ProjectBoxes = () => {
                   </div>
                 </div>
               </a>
-
               <div className="github-link">
                 <a target="_blank" href="https://github.com/zmahmood98/react-music-app">
                 NCT Music
@@ -68,12 +71,12 @@ const ProjectBoxes = () => {
                   <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
                 </a>
               </div>
-
             </div>
+
             <div className="column">
                 <a target="_blank" href="https://maharani-games.netlify.app/">
                   <div className="container">
-                    <img src={maharani} className="image" />
+                    <img src={maharaniGif} className="image" />
                     <div className="overlay">
                       <div className="text">Gaming Site</div>
                     </div>
@@ -88,6 +91,26 @@ const ProjectBoxes = () => {
                 </a>
               </div>
             </div>
+
+            <div className="column">
+                <a target="_blank" href="https://flourishing.netlify.app/">
+                  <div className="container">
+                    <img src={flourishGif} className="image" />
+                    <div className="overlay">
+                      <div className="text">Food Sustainability App</div>
+                    </div>
+                  </div>
+                </a>
+              <div className="github-link">
+                <a target="_blank" href="https://github.com/zmahmood98/flourish/tree/main">
+                Flourish
+                </a>
+                <a className="github-icon" target="_blank" href="https://github.com/zmahmood98/flourish/tree/main">
+                  <img src="https://img.icons8.com/nolan/64/github.png" width="35px"/> 
+                </a>
+              </div>
+            </div>
+
           </div>
     </div>
     <br></br><br></br><br></br>
