@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import reinhabitGif from '../../images/reinhabitGif.gif'
-import ppgGif from '../../images/PPGGif.gif'
+import ppgGif from '../../images/PPG.gif'
 import nctGif from '../../images/nctGif.gif'
 import maharaniGif from '../../images/maharaniGif.gif'
 import flourishGif from '../../images/flourishGif.gif'
