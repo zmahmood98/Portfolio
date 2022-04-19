@@ -5,7 +5,7 @@ import ppgGif from '../../images/PPG.gif'
 import nctGif from '../../images/NCTgif.gif'
 import maharani from '../../images/maharaniGif.gif'
 
-const ProjectBox = () => {
+const ProjectBoxes = () => {
 
     return (
     <>
@@ -96,4 +96,4 @@ const ProjectBox = () => {
 
 }
 
-export default ProjectBox;
+export default ProjectBoxes;
