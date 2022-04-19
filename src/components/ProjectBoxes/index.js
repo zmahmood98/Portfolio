@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import reinhabitGif from '../../images/reinhabitGif.gif'
+import reinhabitGif from '../../images/REINHABIT.gif'
 import ppgGif from '../../images/PPG.gif'
 import nctGif from '../../images/NCT.gif'
 import maharaniGif from '../../images/maharaniGif.gif'
