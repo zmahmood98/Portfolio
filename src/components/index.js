@@ -1,2 +1,2 @@
 export { default as Tabs } from './Tabs';
-export { default as ProjectBoxes } from './ProjectBoxes';
+export { default as ProjectsGrid } from './ProjectsGrid';

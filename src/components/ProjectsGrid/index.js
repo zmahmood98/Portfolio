@@ -6,7 +6,7 @@ import nctGif from '../../images/NCT.gif'
 import maharaniGif from '../../images/maharaniGif.gif'
 import flourishGif from '../../images/flourishGif.gif'
 
-const ProjectBoxes = () => {
+const ProjectsGrid = () => {
 
     return (
     <>
@@ -119,4 +119,4 @@ const ProjectBoxes = () => {
 
 }
 
-export default ProjectBoxes;
+export default ProjectsGrid;
