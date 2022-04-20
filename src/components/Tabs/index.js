@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import TechnologiesList from '../TechnologiesList';
 import './index.css';
 
 
@@ -38,20 +39,12 @@ const Tabs = () => {
                         
                     <section id="content2"> 
                     <h2>Skills & Technologies</h2>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, error quae. Fugit blanditiis quam atque, ut, itaque ipsam facilis distinctio nostrum recusandae ex odit fugiat, tempore exercitationem ea ipsa dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempore. Voluptatem eos inventore nemo atque perferendis reprehenderit laudantium quisquam tempore quaerat nulla repellendus provident, minus soluta perspiciatis accusantium, officiis omnis?
-                        </p>
+                        <TechnologiesList />
                     </section>
 
                     <section id="content3">
                         <h2>My Education</h2>
-                        <p>
-                        
-
-                        
-                        
-
-                        </p>
+                      
                         <p>
                             <b>Cybersecurity MSc (Sep 2020 - Sep 2021) - King’s College London</b>
                             <li>Pass with Merit</li>
