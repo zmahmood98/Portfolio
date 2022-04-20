@@ -18,24 +18,21 @@ const Tabs = () => {
                     
                     <div className="conveytabs">
                     <input id="tab1" type="radio" name="tabs" />
-                    <label htmlFor="tab1"><span className='emoji'>&#x1f393;</span> Education</label>
+                    <label htmlFor="tab1"><span className='emoji'>&#x1f4bb;</span> Experience</label>
                         
                     <input id="tab2" type="radio" name="tabs" />
                     <label htmlFor="tab2"><span className='emoji'>&#x1f433;</span> Technologies</label>
                         
                     <input id="tab3" type="radio" name="tabs" />
-                    <label htmlFor="tab3"><span className='emoji'>&#x1f4bb;</span> Experience</label>
+                    <label htmlFor="tab3"><span className='emoji'>&#x1f393;</span> Education</label>
     
                     <input id="tab4" type="radio" name="tabs" />
                     <label htmlFor="tab4"><span className='emoji'>&#x1f320;</span> Achievements</label>
-                        
+
                     <section id="content1">
-                        <h2>My Education</h2>
+                    <h2>Work Experience</h2>
                         <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iure, ullam porro incidunt velit assumenda in expedita totam ipsa accusantium dignissimos quidem similique veniam mollitia? Incidunt, suscipit? Assumenda, amet repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, incidunt voluptates. Cum porro animi optio minima totam debitis temporibus, consequatur incidunt doloremque. Cum quam reprehenderit ad tempora ex nostrum accusantium.
-                        </p>
-                        <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, error quae. Fugit blanditiis quam atque, ut, itaque ipsam facilis distinctio nostrum recusandae ex odit fugiat, tempore exercitationem ea ipsa dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempore. Voluptatem eos inventore nemo atque perferendis reprehenderit laudantium quisquam tempore quaerat nulla repellendus provident, minus soluta perspiciatis accusantium, officiis omnis?
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iure, ullam porro incidunt velit assumenda in expedita totam ipsa accusantium dignissimos quidem similique veniam mollitia? Incidunt, suscipit? Assumenda, amet repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, incidunt voluptates. Cum porro animi optio minima totam debitis temporibus, consequatur incidunt doloremque. Cum quam reprehenderit ad tempora ex nostrum accusantium.
                         </p>
                     </section>
                         
@@ -45,11 +42,40 @@ const Tabs = () => {
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, error quae. Fugit blanditiis quam atque, ut, itaque ipsam facilis distinctio nostrum recusandae ex odit fugiat, tempore exercitationem ea ipsa dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, tempore. Voluptatem eos inventore nemo atque perferendis reprehenderit laudantium quisquam tempore quaerat nulla repellendus provident, minus soluta perspiciatis accusantium, officiis omnis?
                         </p>
                     </section>
-    
+
                     <section id="content3">
-                    <h2>Work Experience</h2>
+                        <h2>My Education</h2>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iure, ullam porro incidunt velit assumenda in expedita totam ipsa accusantium dignissimos quidem similique veniam mollitia? Incidunt, suscipit? Assumenda, amet repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, incidunt voluptates. Cum porro animi optio minima totam debitis temporibus, consequatur incidunt doloremque. Cum quam reprehenderit ad tempora ex nostrum accusantium.
+                        
+
+                        
+                        
+
+                        </p>
+                        <p>
+                            <b>Cybersecurity MSc (Sep 2020 - Sep 2021) - King’s College London</b>
+                            <li>Pass with Merit</li>
+                        </p>
+                        <p>
+                            <b>Mathematics BSc (Sep 2017 - Aug 2020) - King's College London</b> 
+                            <li>First Class Honours</li>
+                        </p>
+                        <p>
+                            <b>A-Levels (2017) - Plumstead Manor Sixth Form</b>
+                            <li>Mathematics - A*</li>
+                            <li>Further Maths - A*</li>
+                            <li>Chemistry - C</li>
+                        </p>
+
+                        <p>
+                            <b>AS-Levels (2016) - Plumstead Manor Sixth Form</b>
+                            <li>Biology - B</li>
+                        </p>
+
+                        <p>
+                            <b>GCSEs (2015) - Plumstead Manor Secondary School</b>
+                            <li>A* - Mathematics, Biology, Geography, French, Textiles, Religious Education</li>
+                            <li>A  - Physics, Chemistry, English Language, English Literature, Statistics</li>
                         </p>
                     </section>
                         
