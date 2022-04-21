@@ -51,29 +51,6 @@ const TechnologiesList = () => {
     const carouselRef = useRef(null);
     const totalPages = Math.ceil(items.length / itemsPerPage)
     let resetTimeout;
-    // state = {
-    //     items: [
-    //       {id: 0, title: 'HTML', image: html},
-    //       {id: 1, title: 'CSS', image: css},
-    //       {id: 2, title: 'Javascript', image: js},
-    //       {id: 3, title: 'React', image: react},
-    //       {id: 4, title: 'Python', image: python},
-    //       {id: 5, title: 'Flask', image: flask},
-    //       {id: 6, title: 'Django', image: django},
-    //       {id: 7, title: 'Docker', image: docker},
-    //       {id: 8, title: 'SQL', image: sql},
-    //       {id: 9, title: 'Postgresql', image: psql},
-    //       {id: 10, title: 'MongoDB', image: mongo},
-    //       {id: 11, title: 'Heroku', image: heroku},
-    //       {id: 12, title: 'Netlify', image: netlify},
-    //       {id: 13, title: 'VS Code', image: vscode},
-    //       {id: 14, title: 'PyCharm', image: pycharm},
-    //       {id: 15, title: 'Command Line Interface', image: cli},
-    //       {id: 16, title: 'Git', image: git},
-    //       {id: 17, title: 'Figma', image: figma},
-    //       {id: 18, title: 'Matlab', image: matlab},
-    //     ]
-    //   }
 
         return (
             <>
