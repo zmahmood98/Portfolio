@@ -51,14 +51,21 @@ class TechnologiesList extends React.Component {
       render () {
         const { items } = this.state;
         return (
-            <Carousel enableAutoPlay={true} autoPlaySpeed={3000} disableArrowsOnEnd={false}
-            >
+            <>
+            <Carousel enableAutoPlay={true} autoPlaySpeed={3000} 
+            onNextEnd={(currentItem, pageIndex) => {
+                if (pageIndex == 18) {
+                    // fix this if you can someday :(
+                    // isRTL={true}
+                }
+              }}>
                 {items.map(item => 
                 <div key={item.id} className="icon">
                     <img src={item.image}/>
                     {item.title}
                 </div>)}
             </Carousel>
+        </>
     )
 }
 }

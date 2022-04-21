@@ -2,3 +2,12 @@
     width: 300px;
     height: auto;
 }
+
+.input {
+    border: 10px red solid;
+    display: inline;
+    z-index:200000;
+    background-color: red;
+    width: 1000px;
+    height: 10000px;
+}
