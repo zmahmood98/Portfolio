@@ -21,8 +21,6 @@ import figma from '../../images/figma.png'
 import matlab from '../../images/matlab.png'
 import cli from '../../images/cli.png'
 
-let resetTimeout;
-
 const TechnologiesList = () => {
     
     let items = [
@@ -64,7 +62,7 @@ const TechnologiesList = () => {
                     if (index + 1 === totalPages) {
                     resetTimeout = setTimeout(() => {
                         carouselRef.current.goTo(0)
-                    }, 1500) // same time
+                    }, 1500)
                     }
                 }}
             >
