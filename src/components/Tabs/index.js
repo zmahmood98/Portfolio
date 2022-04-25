@@ -44,7 +44,7 @@ const Tabs = () => {
 
                     <section id="content3">
                         <h2>My Education</h2>
-                      
+                        
                         <p>
                             <b>Cybersecurity MSc (Sep 2020 - Sep 2021) - King’s College London</b>
                             <li>Pass with Merit</li>

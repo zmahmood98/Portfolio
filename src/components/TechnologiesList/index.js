@@ -16,10 +16,11 @@ import netlify from '../../images/netlify.png'
 import heroku from '../../images/heroku.png'
 import vscode from '../../images/vscode.png'
 import pycharm from '../../images/pycharm.png'
+import cli from '../../images/cli.png'
 import git from '../../images/git.png'
 import figma from '../../images/figma.png'
 import matlab from '../../images/matlab.png'
-import cli from '../../images/cli.png'
+import rpro from '../../images/R.png'
 
 const TechnologiesList = () => {
     
@@ -43,6 +44,7 @@ const TechnologiesList = () => {
         {id: 16, title: 'Git', image: git},
         {id: 17, title: 'Figma', image: figma},
         {id: 18, title: 'Matlab', image: matlab},
+        {id: 19, title: 'R Programming', image: rpro}
     ]
     
     const itemsPerPage = 1
